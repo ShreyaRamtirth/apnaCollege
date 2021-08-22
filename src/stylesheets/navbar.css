@@ -1,0 +1,17 @@
+.nav-links {
+    color: rgb(168, 161, 161);
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 2px solid rgb(33, 37, 41);
+  }
+
+  .nav-links:hover{
+    color: #fece00;
+    border-bottom: 2px solid #fece00;
+  }
+.navlink{
+  text-decoration: none;
+}

@@ -1,0 +1,8 @@
+.rightSidebar{
+    height: 80vh;
+    background-color: rgba(33, 37, 41);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.685);
+}
+.rightSidebar h3{
+    color: #fece00;
+}

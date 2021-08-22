@@ -1,0 +1,22 @@
+.coverImage{
+    width:100%;
+    height: 50vh;
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.644), rgba(0, 0, 0, 0.589)), url("../images/cover.jpg") no-repeat center center fixed;
+    object-fit: cover;
+}
+.coverImage h1{
+    font-size: 60px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #fecf007e;
+}
+.coverSubtitle{
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 5px;
+    padding-bottom: 10px;
+}
+.coverText{
+    font-size: 15px;
+}
+

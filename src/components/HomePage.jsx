@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Navbar, Nav, Container, Form, Row, Col, FormControl, Button, NavDropdown, NavLink } from 'react-bootstrap';
+import { Navbar, Nav, Container, Form, Row, Col, FormControl, Button, Image } from 'react-bootstrap';
 import {
     ProSidebar,
     Menu,
@@ -62,7 +62,7 @@ const HomePage = (props) => {
                     <SidebarHeader>
                         <div className="logotext">
 
-                            <p>{menuCollapse ? "Logo" : "Big Logo"}</p>
+                            <p>{menuCollapse ? <Image src="https://upload.wikimedia.org/wikipedia/commons/8/8a/University_of_Cambridge_coat_of_arms.svg" fluid /> : <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUSi7Y5ek7UGIkBNo30GjbYgnXWOrv347uFA&usqp=CAU" fluid />}</p>
                         </div>
                         <div className="closemenu" onClick={menuIconClick}>
 

@@ -5,4 +5,8 @@
 }
 .rightSidebar h3{
     color: #fece00;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px dashed #fece00;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }

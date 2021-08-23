@@ -30,6 +30,8 @@ const HomePage = (props) => {
     return (
         <div className="HomePage">
             <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
+                <div className="logotext">                            
+                </div>
                 <Container>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
@@ -60,10 +62,7 @@ const HomePage = (props) => {
             <div className="header" id="header">
                 <ProSidebar collapsed={menuCollapse}>
                     <SidebarHeader>
-                        <div className="logotext">
-
-                            <p>{menuCollapse ? <Image src="https://upload.wikimedia.org/wikipedia/commons/8/8a/University_of_Cambridge_coat_of_arms.svg" fluid /> : <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUSi7Y5ek7UGIkBNo30GjbYgnXWOrv347uFA&usqp=CAU" fluid />}</p>
-                        </div>
+                        
                         <div className="closemenu" onClick={menuIconClick}>
 
                             {menuCollapse ? (

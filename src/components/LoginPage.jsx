@@ -37,11 +37,11 @@ import '../stylesheets/loginpage.css';
                             <Form.Check type="checkbox" label="Remember Me" />
                         </Form.Group>
                         <div className="btn-grp">
-                        <Router>
-                        <Link to="/Home"><Button onClick="()=>{history.push('/')}" className="btn" variant="success">Student Login</Button></Link>
                         
-                        <Link to="/Home"><Button onClick="()=>{history.push('/')}" variant="danger">Admin Login</Button></Link>
-                        </Router>
+                        <Button className="btn" variant="success"><Link to="/Home/Notices">Student Login</Link></Button>
+                        
+                        <Button variant="danger"><Link to="/Home/Notices">Admin Login</Link></Button>
+                        
                         </div>
                     </Form>
                     </Card.Body>

@@ -17,8 +17,8 @@ const NavBar=()=>{
 
 	<div id="navbarCollapse" className="collapse navbar-collapse justify-content-start">
 		<div className="navbar-nav">
-			<Link to="#" className="nav-item nav-link active">Home</Link>
-			<Link to="#" className="nav-item nav-link">Enquiry</Link>
+			<Link to="/Home" className="nav-item nav-link active">Home</Link>
+			<Link to="/Home/Enquiry" className="nav-item nav-link">Enquiry</Link>
 			
       <Link to="#" className="nav-item nav-link">Reports</Link>
 			<Link to="#" className="nav-item nav-link">Create</Link>

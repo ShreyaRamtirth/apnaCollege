@@ -10,6 +10,7 @@ const Routes = () => {
   return (
     <div>
       <NavBar />
+      {console.log("hello")}
       <Container>
         <Row>
           <CoverPage />
@@ -24,6 +25,7 @@ const Routes = () => {
             <Route path="/Home/Enquiry">
               <Enquiry />
             </Route>
+            
           </Col>
           <Col sm={3}>
             <RightSidebar />

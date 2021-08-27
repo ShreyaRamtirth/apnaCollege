@@ -17,14 +17,14 @@ const NavBar=()=>{
 
 	<div id="navbarCollapse" className="collapse navbar-collapse justify-content-start">
 		<div className="navbar-nav">
-			<Link to="/Home" className="nav-item nav-link active">Home</Link>
+			<Link to="/Home/Notices" className="nav-item nav-link active">Home</Link>
 			<Link to="/Home/Enquiry" className="nav-item nav-link">Enquiry</Link>
 			
       <Link to="#" className="nav-item nav-link">Reports</Link>
 			<Link to="#" className="nav-item nav-link">Create</Link>
-      <div class="nav-item dropdown">
+      <div className="nav-item dropdown">
 				<Link to="#" className="nav-link dropdown-toggle" data-toggle="dropdown">Setting</Link>
-				<div class="dropdown-menu">
+				<div className="dropdown-menu">
 					<Link to="#" className="dropdown-item">Add User</Link>
 					<Link to="#" className="dropdown-item">Remove User</Link>
           <div className="dropdown-divider"></div>
@@ -41,11 +41,11 @@ const NavBar=()=>{
 			</div>
 		</form>
 		<div className="navbar-nav ml-auto">
-			<Link to="#" className="nav-item nav-link notifications"><BsFillBellFill /><span class="badge">1</span></Link>
-			<Link to="#" className="nav-item nav-link messages"><AiOutlineMail /><span class="badge">10</span></Link>
-			<div class="nav-item dropdown">
-				<Link to="#" data-toggle="dropdown" className="nav-link dropdown-toggle user-action"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL95BbJqNhfe6K9_7cQPbC41EURBRnw0oZug&usqp=CAU" class="avatar" alt="Avatar" /> Shreya R <b class="caret"></b></Link>
-				<div class="dropdown-menu">
+			<Link to="#" className="nav-item nav-link notifications"><BsFillBellFill /><span className="badge">1</span></Link>
+			<Link to="#" className="nav-item nav-link messages"><AiOutlineMail /><span className="badge">10</span></Link>
+			<div className="nav-item dropdown">
+				<Link to="#" data-toggle="dropdown" className="nav-link dropdown-toggle user-action"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL95BbJqNhfe6K9_7cQPbC41EURBRnw0oZug&usqp=CAU" className="avatar" alt="Avatar" /> Shreya R <b className="caret"></b></Link>
+				<div className="dropdown-menu">
 					<Link to="#" className="dropdown-item"><FaUserAlt /> Profile</Link>
 					<Link to="#" className="dropdown-item"><GoCalendar /> Calendar</Link>
 					<Link to="#" className="dropdown-item"><GoSettings /> Settings</Link>

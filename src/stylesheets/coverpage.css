@@ -3,6 +3,7 @@
     height: 50vh;
     background:linear-gradient(0deg, rgba(0, 0, 0, 0.644), rgba(0, 0, 0, 0.589)), url("https://docplayer.net/docs-images/65/52952553/images/1-1.jpg") no-repeat center center fixed;
     object-fit: cover;
+    /* background-size: cover; */
 }
 .coverImage h1{
     font-size: 60px;

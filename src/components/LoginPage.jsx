@@ -38,9 +38,9 @@ import '../stylesheets/loginpage.css';
                         </Form.Group>
                         <div className="btn-grp">
                         
-                        <Button className="btn" variant="success"><Link to="/Home/Notices">Student Login</Link></Button>
+                        <Link to="/Home/Notices"><Button className="btn" variant="success">Student Login</Button></Link>
                         
-                        <Button variant="danger"><Link to="/Home/Notices">Admin Login</Link></Button>
+                        <Link to="/Home/Notices"><Button variant="danger">Admin Login</Button></Link>
                         
                         </div>
                     </Form>

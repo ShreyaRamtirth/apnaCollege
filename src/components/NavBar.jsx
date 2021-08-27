@@ -21,7 +21,7 @@ const NavBar=()=>{
 			<Link to="/Home/Enquiry" className="nav-item nav-link">Enquiry</Link>
 			
       <Link to="#" className="nav-item nav-link">Reports</Link>
-			<Link to="#" className="nav-item nav-link">Create</Link>
+			<Link to="/Home/Create" className="nav-item nav-link">Create</Link>
       <div className="nav-item dropdown">
 				<Link to="#" className="nav-link dropdown-toggle" data-toggle="dropdown">Setting</Link>
 				<div className="dropdown-menu">

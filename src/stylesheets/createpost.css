@@ -1,0 +1,32 @@
+.create-post h1 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}  
+.side {
+    margin-left: 0;
+}
+  
+.create-post button {
+    margin: 10px;
+    border-color: #000 !important;
+    color: #000 !important;
+    margin-bottom: 25px;
+}
+  
+.create-post button:hover {
+    background-color: #fecf00e5 !important;
+}
+  
+.create-post textarea {
+    padding: 3%;
+    border-color: #fecf00a6;
+    border-width:medium;
+}
+  
+.create-post .flex-box {
+    display: flex;
+    justify-content: center;
+}

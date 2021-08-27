@@ -27,39 +27,6 @@ const Enquiry = () => {
               </div>
             </div>
           </Card>
-            
-          {/* <Form className="enquiryForm">
-
-            <Card className="card-container">
-              <div className="input-groups">
-              <label for="text" className="label-text">Name</label>
-              <input type="text" className="text-type" name="name"/>
-              </div>
-
-              <div className="input-groups">
-              <label for="email">Email</label>
-              <input className="text-type" name="email" type="email" />
-              </div>
-
-              <div className="input-groups">
-              <label for="Message">Message</label>
-              <textarea>
-
-              </textarea>
-              </div>
-
-              <div className="input-groups">
-              <input className="text-type" name="email" type="file" />
-              </div>
-
-
-             
-            </Card>
-          </Form> */}
-
-
-          
-
 <Form>
   <Card className="enquiryForm" >
 <InputGroup className="mb-3">

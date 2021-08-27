@@ -3,6 +3,7 @@ import NavBar from './NavBar';
 import CoverPage from './CoverPage';
 import NoticePage from './NoticePage';
 import Enquiry from './Enquiry';
+import CreatePost from './CreatePost';
 import RightSidebar from './RightSidebar';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Route } from 'react-router-dom';
@@ -25,7 +26,10 @@ const Routes = () => {
             <Route path="/Home/Enquiry">
               <Enquiry />
             </Route>
-            
+            <Route path="/Home/Create">
+              <CreatePost />
+            </Route>
+
           </Col>
           <Col sm={3}>
             <RightSidebar />

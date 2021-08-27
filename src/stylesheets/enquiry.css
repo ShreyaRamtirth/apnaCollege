@@ -18,12 +18,12 @@
     border-radius: 20px;
     box-shadow: 0 2px 15px #fecf00b6;
 }
-.btn{
+.enquiryForm .btn{
     color:black;
     outline: none !important;
     transition: all .5s ease;
 }
-.btn:hover{
+.enquiryForm .btn:hover{
     background-color: #fece00;
     border-radius: 50px;
     outline: none !important;

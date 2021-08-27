@@ -6,7 +6,6 @@ import NoticePage from './NoticePage.jsx';
 import RightSidebar from './RightSidebar.jsx';
 import 'react-pro-sidebar/dist/css/styles.css';
 import '../stylesheets/navbar.css';
-import '../stylesheets/sidebar.css';
 import CoverPage from './CoverPage.jsx';
 import NavBar from '../components/NavBar.jsx';
 import Enquiry from '../components/Enquiry.jsx';

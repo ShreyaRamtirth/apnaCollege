@@ -18,8 +18,8 @@ const Routes = () => {
         </Row>
       </Container>
       <Container>
-        <Row>
-          <Col sm={9}>
+        <Row >
+          <Col sm={9} md={8}>
             <Route path="/Home/Notices">
               <NoticePage />
             </Route>
@@ -31,7 +31,7 @@ const Routes = () => {
             </Route>
 
           </Col>
-          <Col sm={3}>
+          <Col sm={3} md={4}>
             <RightSidebar />
           </Col>
         </Row>

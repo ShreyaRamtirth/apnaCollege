@@ -1,43 +1,43 @@
-import React,{useState} from 'react';
+import React, { useState } from 'react';
 import { AiOutlineAlignLeft, AiOutlineAlignRight, AiOutlineAlignCenter } from 'react-icons/ai';
 import { InputGroup, FormControl, Tab, TabContainer, Row, Nav, Col, Button } from 'react-bootstrap';
 import '../stylesheets/createpost.css';
 const CreatePost = () => {
         function makeBold() {
-                if(window.getSelection()==="")
+                if (window.getSelection() === "")
                         document.getElementById("textarea1").style.fontWeight = "Bold";
                 else
                         console.log(document.execCommand('bold'));
         }
-        
+
         function makeItalic() {
                 document.getElementById("textarea1").style.fontStyle = "italic";
         }
-        
+
         function alignTextLeft() {
                 document.getElementById("textarea1").style.textAlign = "left";
         }
-        
+
         function alignTextCenter() {
                 document.getElementById("textarea1").style.textAlign = "center";
         }
-        
+
         function alignTextRight() {
                 document.getElementById("textarea1").style.textAlign = "right";
         }
-        
+
         function ChangeToUppercase() {
                 document.getElementById("textarea1").style.textTransform = "uppercase";
         }
-        
+
         function ChangeToLowercase() {
                 document.getElementById("textarea1").style.textTransform = "lowercase";
         }
-        
+
         function ChangeToCaptilize() {
                 document.getElementById("textarea1").style.textTransform = "capitalize";
         }
-        
+
         function ClearALL() {
                 document.getElementById("textarea1").style.fontWeight = "normal";
                 document.getElementById("textarea1").style.textAlign = "left";
@@ -45,7 +45,7 @@ const CreatePost = () => {
                 document.getElementById("textarea1").style.textTransform = "capitalize";
                 document.getElementById("textarea1").value = " ";
         }
-        
+
         return (
                 <div className="create-post">
                         <h1 className="shadow-sm">TEXT EDITOR</h1>
@@ -159,28 +159,29 @@ const CreatePost = () => {
                                                         <Col sm={9}>
                                                                 <Tab.Content>
                                                                         <Tab.Pane eventKey="first">
+                                                                                <p>Make This Post Visible To</p>
                                                                                 <div className="privacy-inputs">
-                                                                                <div className="checkbox-wrap">
-                                                                                        <input type="checkbox" value="Bcom" /> BCOM
-                                                                                </div>
-                                                                                <div className="checkbox-wrap">
-                                                                                <input type="checkbox" value="BBA" /> BBA</div>
-                                                                                <div className="checkbox-wrap">
-                                                                                <input type="checkbox" value="BBA(IB)" /> BBA(IB)</div>
-                                                                                <div className="checkbox-wrap">
-                                                                                <input type="checkbox" value="BSC" /> Bsc</div>
-                                                                                <div className="checkbox-wrap">
-                                                                                <input type="checkbox" value="Msc" /> Msc</div>
-                                                                                <div className="checkbox-wrap">
-                                                                                <input type="checkbox" value="BBA(CA)" /> BBA(CA)</div>
-                                                                                <div className="checkbox-wrap">
-                                                                                <input type="checkbox" value="BA" /> BA</div>
+                                                                                        <div className="checkbox-wrap">
+                                                                                                <input type="checkbox" value="Bcom" /> BCOM
+                                                                                        </div>
+                                                                                        <div className="checkbox-wrap">
+                                                                                                <input type="checkbox" value="BBA" /> BBA</div>
+                                                                                        <div className="checkbox-wrap">
+                                                                                                <input type="checkbox" value="BBA(IB)" /> BBA(IB)</div>
+                                                                                        <div className="checkbox-wrap">
+                                                                                                <input type="checkbox" value="BSC" /> Bsc</div>
+                                                                                        <div className="checkbox-wrap">
+                                                                                                <input type="checkbox" value="Msc" /> Msc</div>
+                                                                                        <div className="checkbox-wrap">
+                                                                                                <input type="checkbox" value="BBA(CA)" /> BBA(CA)</div>
+                                                                                        <div className="checkbox-wrap">
+                                                                                                <input type="checkbox" value="BA" /> BA</div>
                                                                                 </div>
                                                                         </Tab.Pane>
                                                                         <Tab.Pane eventKey="second">
                                                                                 <p>Add some related tags</p>
                                                                                 <div className="tag-input">
-                                                                                <input type="text" placeholder="placement, work from home, competition" />
+                                                                                        <input type="text" placeholder="placement, work from home, competition" />
                                                                                 </div>
                                                                         </Tab.Pane>
                                                                 </Tab.Content>
@@ -191,7 +192,7 @@ const CreatePost = () => {
                         </div>
                         <div className="row">
                                 <div className="col submit-button">
-                                <Button variant="outline-warning">Submit</Button>
+                                        <Button variant="outline-warning">Submit</Button>
                                 </div>
                         </div>
                 </div>

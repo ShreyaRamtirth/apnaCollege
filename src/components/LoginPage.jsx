@@ -1,19 +1,11 @@
 /* eslint-disable no-unused-vars */
 import React, { Component } from "react";
-import {
-    BrowserRouter as Router,
-    Route,
-    Link,
-    Switch
-  } from 'react-router-dom';
-import { Button, Card, Form, Toast } from 'react-bootstrap';
-import { useHistory } from "react-router-dom";
-import HomePage from './HomePage.jsx';
+import { Link } from 'react-router-dom';
+import { Button, Card, Form } from 'react-bootstrap';
 import '../stylesheets/loginpage.css';
 
 
- const LoginPage=()=> {
-        const history = useHistory();    
+ const LoginPage=()=> { 
         return (
             
             <div className="loginContainer">

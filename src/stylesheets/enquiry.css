@@ -1,5 +1,8 @@
 .enquiry{
     padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .enquiry h3{
@@ -14,7 +17,8 @@
     margin: auto;
     margin-top: 20px;
     padding: 20px;
-    width: 500px;
+    width: auto;
+    max-width: 500px;
     border-radius: 20px;
     box-shadow: 0 2px 15px #fecf00b6;
 }
@@ -29,46 +33,12 @@
     outline: none !important;
     font-weight: 600;
 }
-/* .form{
-    margin-top: 20px;
-    padding: 10px;
+@media screen and (max-width:320px){
+    .enquiry{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .enquiryForm{
+        width: auto;
+    }
 }
-
-.input-groups{
-    margin: auto;
-    padding-bottom: 20px;
-}
-.input-groups input{
-    margin-left: 10px;
-    border-radius: 50px;
-    padding: 0 10px ;
-    outline: none;
-}
-.input-groups input:focus {
-    outline: none;
-}
-.card-container{
-    padding: 20px;
-}
-.btn{
-    color:black;
-    outline: none !important;
-}
-.btn:hover{
-    background-color: #fece00;
-    border-radius: 50px;
-    outline: none !important;
-    font-weight: 600;
-}
-.input-groups textarea{
-    margin-left: 10px;
-    border-radius: 10px;
-    padding: 0 10px ;
-    outline: none;
-    
-    height: auto;
-}
-.input-groups{
-    display: flex;
-    flex-wrap: wrap;
-} */

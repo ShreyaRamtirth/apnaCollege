@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 const NavBar=()=>{
   return(
     <nav className="navbar navbar-expand-xl navbar-dark bg-dark">
-  <Link to="#" className="navbar-brand"><img src={logo} alt="Logo" width="250" height="50"/></Link>
+  <Link to="#" className="navbar-brand"><img src={logo} alt="Logo" height="50"/></Link>
 	<button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
 		<span className="navbar-toggler-icon"></span>
 	</button>

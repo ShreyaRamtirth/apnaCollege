@@ -16,7 +16,7 @@ const Enquiry = () => {
             <div className="form">
               <div className="input-group">
                 <div className="input-group-prepend">
-                  <label className="input-group-text" for="inputGroupSelect01">Type of Application</label>
+                  <label className="input-group-text" HTMLfor="inputGroupSelect01">Type of Application</label>
                 </div>
                 <select className="custom-select" id="inputGroupSelect01">
                   <option selected>Choose...</option>

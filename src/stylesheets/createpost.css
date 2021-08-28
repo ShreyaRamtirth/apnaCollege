@@ -1,3 +1,7 @@
+.create-post{
+    width: 100%;
+    height: auto;
+}
 .create-post h1 {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -32,6 +36,7 @@
 .create-post .flex-box {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .create-post{
     padding: 5%;
@@ -40,8 +45,11 @@
 }
 .privacy-inputs{
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
     flex-wrap:wrap;
+}
+.checkbox-wrap{
+    margin-right: 20px;
 }
 .tag-input input{
     padding: 10px;

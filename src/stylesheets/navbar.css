@@ -11,7 +11,6 @@ body {
 	background: #fff;
 	padding-left: 16px;
 	padding-right: 16px;
-	/* border-bottom: 1px solid #d6d6d6; */
 	box-shadow: 0 0 4px rgba(0,0,0,.1);
 }
 .navbar .nav-link{
@@ -29,11 +28,6 @@ body {
 	color: #555;
 	padding-left: 0;
 	padding-right: 50px;
-	font-family: 'Merienda One', sans-serif;
-}
-.navbar .navbar-brand i {
-	font-size: 20px;
-	margin-right: 5px;
 }
 .search-box {
 	position: relative;
@@ -126,5 +120,10 @@ body {
 	}
 	.input-group {
 		width: 100%;
+	}
+}
+@media screen and (max-width:320px){
+	.navbar .navbar-brand{
+		padding-right: 0;
 	}
 }

@@ -21,3 +21,15 @@
     font-size: 15px;
 }
 
+@media screen and (min-width: 374px) and (max-width: 458px){
+
+    .coverImage h1{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 375px){
+
+    .coverImage h1{
+        font-size: 25px;
+    }
+}

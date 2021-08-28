@@ -9,24 +9,55 @@
     margin-left: 0;
 }
   
-.create-post button {
+.create-post .all-buttons button {
     margin: 10px;
     border-color: #000 !important;
     color: #000 !important;
     margin-bottom: 25px;
 }
   
-.create-post button:hover {
-    background-color: #fecf00e5 !important;
+.create-post .all-buttons button:hover {
+    background-color: #fecf0062 !important;
 }
-  
+.input-group-container{
+    box-shadow: 0px 2px 5px rgba(49, 49, 49, 0.623);
+}
 .create-post textarea {
     padding: 3%;
-    border-color: #fecf00a6;
+    border-color: rgba(49, 49, 49, 0.623);;
     border-width:medium;
+    margin-bottom: 25px;
 }
   
 .create-post .flex-box {
     display: flex;
     justify-content: center;
+}
+.create-post{
+    padding: 5%;
+            padding-top: 0;
+            height: 100vh;
+}
+.privacy-inputs{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+.tag-input input{
+    padding: 10px;
+    outline: none;
+    border:none;
+    border-bottom: 2px solid #000;
+    background-color: #eeee;
+    width:100%;
+}
+
+.tabcontainer{
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 2px 3px 5px rgba(85, 85, 85, 0.788);
+}
+.submit-button button{
+    color: #000;
+    border-color: #000;
 }

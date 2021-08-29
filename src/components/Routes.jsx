@@ -11,7 +11,6 @@ const Routes = () => {
   return (
     <div>
       <NavBar />
-      {console.log("hello")}
       <Container>
         <Row>
           <CoverPage />
@@ -19,7 +18,7 @@ const Routes = () => {
       </Container>
       <Container>
         <Row >
-          <Col sm={9} md={8}>
+          <Col sm={8} md={8} xl={9}>
             <Route path="/Home/Notices">
               <NoticePage />
             </Route>
@@ -31,7 +30,7 @@ const Routes = () => {
             </Route>
 
           </Col>
-          <Col sm={3} md={4}>
+          <Col sm={4} md={4} xl={3}>
             <RightSidebar />
           </Col>
         </Row>

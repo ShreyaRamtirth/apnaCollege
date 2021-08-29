@@ -1,13 +1,10 @@
 import React, { useState } from 'react';
 import { AiOutlineAlignLeft, AiOutlineAlignRight, AiOutlineAlignCenter } from 'react-icons/ai';
-import { InputGroup, FormControl, Tab, TabContainer, Row, Nav, Col, Button } from 'react-bootstrap';
+import { InputGroup, FormControl, Tab, Form, Row, Nav, Col, Button } from 'react-bootstrap';
 import '../stylesheets/createpost.css';
 const CreatePost = () => {
         function makeBold() {
-                if (window.getSelection() === "")
-                        document.getElementById("textarea1").style.fontWeight = "Bold";
-                else
-                        console.log(document.execCommand('bold'));
+                document.execCommand('bold');
         }
 
         function makeItalic() {
@@ -131,15 +128,7 @@ const CreatePost = () => {
                         </div>
                         <div className="row">
                                 <div className="col">
-                                        <div className="flex-box">
-                                                <textarea id="textarea1"
-                                                        className="input shadow"
-                                                        name="name"
-                                                        rows="15"
-                                                        cols="80"
-                                                        placeholder="Your text here ">
-                                                </textarea>
-                                        </div>
+                                        <div contenteditable="true" style={{ height: '400px' }} id="textarea1" className="textarea" data-text="Enter text here"></div>
                                 </div>
                         </div>
                         <div className="row">

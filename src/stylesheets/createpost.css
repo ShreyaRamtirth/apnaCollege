@@ -1,7 +1,4 @@
-.create-post{
-    width: 100%;
-    height: auto;
-}
+
 .create-post h1 {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -9,9 +6,6 @@
     color: #000;
     font-family: 'Montserrat', sans-serif;
 }  
-.side {
-    margin-left: 0;
-}
   
 .create-post .all-buttons button {
     margin: 10px;
@@ -26,22 +20,20 @@
 .input-group-container{
     box-shadow: 0px 2px 5px rgba(49, 49, 49, 0.623);
 }
-.create-post textarea {
+.create-post .textarea{
     padding: 3%;
-    border-color: rgba(49, 49, 49, 0.623);;
+     
     border-width:medium;
     margin-bottom: 25px;
+    border: 1px solid rgba(49, 49, 49, 0.623);
+    background-color: #fff;
+    overflow: auto;
 }
   
 .create-post .flex-box {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
-.create-post{
-    padding: 5%;
-            padding-top: 0;
-            height: 100vh;
 }
 .privacy-inputs{
     display: flex;
